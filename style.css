@@ -12,7 +12,7 @@ body {
 
 
 .login {
-    background: linear-gradient(45deg, #530221, #860a39);
+    background: linear-gradient(45deg, #530221, #ff0062);
     height: 100vh;
     display: flex;
     flex-direction: column;
