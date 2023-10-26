@@ -5,14 +5,14 @@
 }
 body {
     padding: 20px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 
 
 
 .login {
-    background: linear-gradient(#98ff98, #f47dff);
+    background: linear-gradient(#bbffbb, #f9b4ff);
     height: 100vh;
     display: flex;
     flex-direction: column;
