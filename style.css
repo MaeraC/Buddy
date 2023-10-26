@@ -12,7 +12,7 @@ body {
 
 
 .login {
-    background: linear-gradient(#bbffbb, #f9b4ff);
+    background: #cf0045;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -29,40 +29,32 @@ body {
     font-family: 'Lobster', sans-serif;
     font-size: 80px;
     color: white;
-    text-shadow: 5px 5px 25px #9e9e9eab;
 }
 .brand h2 {
     font-weight: 600;
     font-size: 18px;
     margin: 0 20px;
+    color: white;
 }
 .btn-sign a {
     display: block;
     width: 100%;
-    border-radius: 20px;
+    border-radius: 40px;
     height: 50px;
     text-decoration: none;
     text-align: center;
     line-height: 50px;
     margin-bottom: 10px;
-}
-.apple-sign {
-    background-color: black;
+    border: solid white 2px;
     color: white;
-}
-.fb-sign {
-    background-color: blue;
-    color: white;
-}
-.tel-sign {
-    background-color: white;
-    color: black;
+    font-size: 17px;
 }
 .bottom p {
     font-size: 12px;
     text-align: center;
     margin-top: 40px;
+    color: white;
 }
 .bottom p a {
-    color: black;
+    color: white;
 }
