@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 20px;
+}
+
+
+
+
+.login {
+    background: pink;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.brand {
+    width: 100%;
+    text-align: center;
+}
+.brand h1 {
+    margin-bottom: 20px;
+}
+.btn-sign a {
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.apple-sign {
+    background-color: black;
+    color: white;
+}
+.fb-sign {
+    background-color: blue;
+    color: white;
+}
+.tel-sign {
+    background-color: white;
+    color: black;
+}
+.bottom p {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 40px;
+}
+.bottom p a {
+    color: black;
+}
