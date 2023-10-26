@@ -5,33 +5,45 @@
 }
 body {
     padding: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
 
 
 .login {
-    background: pink;
+    background: linear-gradient(#98ff98, #f47dff);
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
 }
 .brand {
+    margin-top: 100px;
     width: 100%;
     text-align: center;
 }
 .brand h1 {
     margin-bottom: 20px;
+    font-family: 'Lobster', sans-serif;
+    font-size: 60px;
+    color: white;
+}
+.brand h2 {
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0 20px;
+    color: white;
 }
 .btn-sign a {
     display: block;
     width: 100%;
     border-radius: 20px;
-    height: 40px;
+    height: 50px;
     text-decoration: none;
     text-align: center;
-    line-height: 40px;
+    line-height: 50px;
     margin-bottom: 10px;
 }
 .apple-sign {
