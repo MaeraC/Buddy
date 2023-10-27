@@ -76,7 +76,7 @@ body {
 .name-form,
 .birthdate-form,
 .email-form {
-    height: 100vh;
+    height: 100%;
     display: none;
     flex-direction: column;
     justify-content: space-between;
