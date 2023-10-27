@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    padding: 20px;
+    padding: 40px 20px;
     font-family: 'Quicksand', sans-serif;
 }
 .button {
@@ -75,7 +75,6 @@ body {
     display: none;
     flex-direction: column;
     justify-content: space-between;
-    padding: 20px 0;
 }
 .phone-number label {
     color: white;
