@@ -36,7 +36,7 @@ body {
 }
 .homepage .title,
 .sign-up-page .title {
-    margin-top: 150px;
+    padding-top: 150px;
     width: 100%;
     text-align: center;
 }
@@ -52,15 +52,15 @@ body {
     font-weight: normal;
     font-size: 18px;
     line-height: 25px;
-    margin: 0 20px;
+    padding: 0 20px;
     color: white;
-    margin-top: 40px;
+    padding-top: 40px;
 }
 .homepage p,
 .sign-up-page .btns p {
     font-size: 12px;
     text-align: center;
-    margin: 40px 0;
+    padding: 40px 0;
     color: white;
 }
 .homepage p a,
@@ -75,7 +75,7 @@ body {
     display: none;
     flex-direction: column;
     justify-content: space-between;
-    margin: 20px 0;
+    padding: 20px 0;
 }
 .phone-number label {
     color: white;
@@ -83,13 +83,13 @@ body {
     font-size: 30px;
 }
 .phone-number .info {
-    margin-top: 30px;
+    padding-top: 30px;
     font-size: 15px;
     text-align: left;
     color: white;
 }
 .tel-bloc {
-    margin-top: 30px;
+    padding-top: 30px;
     width: 100%;
 }
 .tel-bloc span {
