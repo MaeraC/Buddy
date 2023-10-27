@@ -40,12 +40,12 @@ body {
     width: 100%;
     text-align: center;
 }
-.homepage .title h1,
-.sign-up-page .title h1 {
-    margin-bottom: 40px;
+.homepage .title h1 a,
+.sign-up-page .title h1 a {
     font-family: 'Yeseva One', serif;
     font-size: 60px;
     color: white;
+    text-decoration: none;
 }
 .homepage .title h2,
 .sign-up-page .title h2 {
@@ -54,6 +54,7 @@ body {
     line-height: 25px;
     margin: 0 20px;
     color: white;
+    margin-top: 40px;
 }
 .homepage p,
 .sign-up-page .btns p {
