@@ -10,33 +10,34 @@ body {
 
 
 
+/* HOMEPAGE ************************************************/
 
-.login {
-    background: linear-gradient(45deg, #530221, #ff008c);
+.homepage {
+    background: linear-gradient(-45deg, #5F00D8, #F69955);
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
 }
-.brand {
+.homepage .title {
     margin-top: 100px;
     width: 100%;
     text-align: center;
 }
-.brand h1 {
+.homepage .title h1 {
     margin-bottom: 40px;
-    font-family: 'Lobster', sans-serif;
-    font-size: 80px;
+    font-family: 'Yeseva One', serif;
+    font-size: 60px;
     color: white;
 }
-.brand h2 {
-    font-weight: 600;
+.homepage .title h2 {
+    font-weight: normal;
     font-size: 18px;
     margin: 0 20px;
     color: white;
 }
-.btn-sign a {
+.homepage .btns div a {
     display: block;
     width: 100%;
     border-radius: 40px;
@@ -47,14 +48,14 @@ body {
     margin-bottom: 10px;
     border: solid white 2px;
     color: white;
-    font-size: 17px;
+    font-size: 18px;
 }
-.bottom p {
+.homepage p {
     font-size: 12px;
     text-align: center;
     margin-top: 40px;
     color: white;
 }
-.bottom p a {
+.homepage p a {
     color: white;
 }
