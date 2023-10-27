@@ -140,6 +140,10 @@ body {
     color: white;
     font-size: 23px;
 }
+.astro {
+    display: none;
+    overflow-y: scroll;
+}
 
 
 /* HOMEPAGE ************************************************/
