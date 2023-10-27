@@ -9,15 +9,19 @@ nextBtn.addEventListener("click", () => {
     sectionRelationType.style.display = "flex"
 })
 
-const checkInput = document.querySelector(".check-input")
-const checkbox = document.querySelector(".checkbox")
+const checkInput = document.querySelectorAll(".check-input")
+const checkbox = document.querySelectorAll(".checkbox")
 
-checkInput.addEventListener("click", () => {
-    if (checkInput.checked == true) {
-        console.log("c'est checked")
-        checkbox.style.background = "white"
-    }
-    else {
-        console.log("'est pas checked")
-    }
+
+
+checkInput.forEach(input => {
+    input.addEventListener("click", () => {
+        if (input.checked == true) {
+            input.parentNode.style.background = "#ffffff57"
+        }
+        else {
+            input.parentNode.style.background = "initial"
+        }
+    })
+    console.log(input.parentNode)
 })
