@@ -140,10 +140,6 @@ body {
     color: white;
     font-size: 23px;
 }
-.astro {
-    display: none;
-    overflow-y: scroll;
-}
 
 
 /* HOMEPAGE ************************************************/
@@ -218,8 +214,26 @@ body {
     width: 40px;
     height: 40px;
 }
-.next-relation-type {
+.next-relation-type ,
+.next-astro,
+.next-interest {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 1px;
+}
+.astro , 
+.interest {
+    display: none;
+    overflow-y: scroll;
+}
+.interest-bloc .checkbox {
+    width: 40%;
+    margin: 10px;
+}
+.interest-bloc .check-bloc {
+    display: flex;
+    flex-direction: column;
+}
+.interest-bloc .check-bloc img {
+    margin-bottom: 10px;
 }

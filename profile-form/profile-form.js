@@ -3,7 +3,9 @@ const header = document.querySelector(".profile-form-page header")
 const headerBtn = document.querySelector(".profile-form-page .btn")
 const sectionRelationType = document.querySelector(".relation-type")
 const sectionAstro = document.querySelector(".astro")
+const sectionInterest = document.querySelector(".interest")
 const nextRelationType = document.querySelector(".next-relation-type")
+const nextAstro = document.querySelector(".next-astro")
 
 nextBtn.addEventListener("click", () => {
     header.style.display = "none"
@@ -15,6 +17,12 @@ nextRelationType.addEventListener("click", (e) => {
     e.preventDefault()
     sectionRelationType.style.display = "none"
     sectionAstro.style.display = "block"
+})
+
+nextAstro.addEventListener("click", (e) => {
+    e.preventDefault()
+    sectionAstro.style.display = "none"
+    sectionInterest.style.display = "block"
 })
 
 const checkInput = document.querySelectorAll(".check-input")
