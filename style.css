@@ -75,11 +75,12 @@ body {
     display: none;
     flex-direction: column;
     justify-content: space-between;
+    margin: 20px 0;
 }
 .phone-number label {
     color: white;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 30px;
 }
 .phone-number .info {
     margin-top: 20px;
