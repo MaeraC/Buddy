@@ -7,37 +7,7 @@ body {
     padding: 20px;
     font-family: 'Quicksand', sans-serif;
 }
-
-
-
-/* HOMEPAGE ************************************************/
-
-.homepage {
-    background: linear-gradient(-45deg, #5F00D8, #F69955);
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-}
-.homepage .title {
-    margin-top: 150px;
-    width: 100%;
-    text-align: center;
-}
-.homepage .title h1 {
-    margin-bottom: 40px;
-    font-family: 'Yeseva One', serif;
-    font-size: 60px;
-    color: white;
-}
-.homepage .title h2 {
-    font-weight: normal;
-    font-size: 18px;
-    margin: 0 20px;
-    color: white;
-}
-.homepage .btns div a {
+.button {
     display: block;
     width: 100%;
     border-radius: 40px;
@@ -49,13 +19,98 @@ body {
     border: solid white 2px;
     color: white;
     font-size: 18px;
+    background: none;
 }
-.homepage p {
+
+
+
+/* HOMEPAGE + SIGN UP PAGE ************************************************/
+
+.homepage, 
+.sign-up-page {
+    background: linear-gradient(-45deg, #5F00D8, #F69955);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.homepage .title,
+.sign-up-page .title {
+    margin-top: 150px;
+    width: 100%;
+    text-align: center;
+}
+.homepage .title h1,
+.sign-up-page .title h1 {
+    margin-bottom: 40px;
+    font-family: 'Yeseva One', serif;
+    font-size: 60px;
+    color: white;
+}
+.homepage .title h2,
+.sign-up-page .title h2 {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0 20px;
+    color: white;
+}
+.homepage p,
+.sign-up-page .btns p {
     font-size: 12px;
     text-align: center;
     margin: 40px 0;
     color: white;
 }
-.homepage p a {
+.homepage p a,
+.sign-up-page .btns p a {
     color: white;
 }
+
+
+
+.phone-number {
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.phone-number label {
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+}
+.phone-number .info {
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: left;
+    color: white;
+}
+.tel-bloc {
+    margin-top: 20px;
+    width: 100%;
+}
+.tel-bloc span {
+    color: white;
+    font-size: 23px;
+    border-bottom: 2px solid white;
+    margin-right: 10px;
+}
+.tel-bloc input {
+    width: 70%;
+    outline: none;
+    color: white;
+    background: none;
+    border: none;
+    font-size: 23px;
+    border-bottom: 2px solid white;
+}
+.phone-number .next {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+
+/* HOMEPAGE ************************************************/
