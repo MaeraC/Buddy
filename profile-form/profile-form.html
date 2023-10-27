@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buddy - Complète ton profil</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="profile-form-page">
+
+    <header>
+        <h1>Nous allons maintenant compléter ton profil afin de te trouver les meilleurs matchs</h1>
+        <p>Toutes ces informations seront visibles sur ton profil par les autres membres de la communauté.</p>
+    </header>
+    <div class="btn">
+        <p>Plus ton profil sera complet plus tes matchs te correspondront.</p>
+        <button class="next-header button">C'est parti !</button>
+    </div>
+
+    <form action="" class="relation-type">
+        <div class="head">
+            <label class="title" for="">Quel type de relation recherches-tu ?</label>
+            <p class="info">Tu peux choisir plusieurs options.</p>
+        </div>
+        <div class="bloc-type">
+            <label class="checkbox">
+                <input class="check-input" type="checkbox">
+                <span class="check-bloc">
+                    <img src="../assets/party.png" alt="">
+                    <span class="check-title">Des amies pour sortir faire la fête</span>
+                </span>
+            </label>
+            <label class="checkbox">
+                <input class="check-input" type="checkbox">
+                <span class="check-bloc">
+                    <img class="img" src="../assets/chat.png" alt="">
+                    <span class="check-title">Des amies virtuelles pour discuter</span>
+                </span>
+            </label>                
+            <label class="checkbox">
+                <input class="check-input" type="checkbox">
+                <span class="check-bloc">
+                    <img class="img" src="../assets/sincerity.png" alt="">
+                    <span class="check-title">À la recherche d'une amitié sincère</span>
+                </span>
+            </label> 
+            <label class="checkbox">
+                <input class="check-input" type="checkbox">
+                <span class="check-bloc">
+                    <img class="img" src="../assets/dunno.png" alt="">
+                    <span class="check-title">Je ne sais pas, je verrai au feeling</span>
+                </span>
+            </label> 
+        </div>
+        <button class="button next-relation-type">Suivant</button>
+    </form>
+
+    <script src="./profile-form.js"></script>
+</body>
+</html>
