@@ -344,3 +344,13 @@ body {
     width: 25px;
     margin-right: 5px;
 }
+.no-match {
+    position: absolute;
+    bottom: 65px;
+    z-index: 99;
+    right: 5px;
+    background: linear-gradient(45deg, #5F00D8, #F69955);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
