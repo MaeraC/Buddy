@@ -6,6 +6,7 @@
 body {
     padding: 40px 20px;
     font-family: 'Quicksand', sans-serif;
+    background: linear-gradient(-45deg, #5F00D8, #F69955);
 }
 .button {
     display: block;
@@ -30,7 +31,6 @@ body {
 .homepage, 
 .sign-up-page,
 .profile-form-page {
-    background: linear-gradient(-45deg, #5F00D8, #F69955);
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -255,19 +255,92 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    color: white;
 }
 .dashboard header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 .dashboard header h1 {
     font-family: 'Yeseva One', serif;
     font-weight: 100;
+    color: white;
+    font-size: 30px;
 }
 .dashboard footer {
-    height: 8vh;
-    background: #5F00D8;
+    padding: 0 10px;
+    padding-top: 10px;
+    border-top: solid 1px white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.dashboard .swipes {
+    margin: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    overflow-y: scroll;
+}
+.dashboard figure {
+    width: 95vw;
+    height: 65vh;
+    border-radius: 20px;
+    border: 5px solid white;
+    margin: 20px 0;
+}
+.dashboard figcaption  {
+    margin: 0 10px;
+    color: white;
+    font-size: 18px;
+}
+.dashboard .pp {
+    position: relative;
+}
+.dashboard .name-age {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 25px;
+    background: #0000008a;
+}
+.dashboard figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.dashboard .swipes .infos {
+    margin-bottom: 20px;
+}
+.dashboard .swipes .infos h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.dashboard .swipes ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.dashboard .swipes ul li {
+    display: flex;
+    align-items: center;
+    border: solid 1px white;
+    width: initial;
+    padding: 4px 15px;
+    margin: 6px 10px;
+    margin-left: 0;
+    border-radius: 20px;
+}
+.dashboard .swipes ul li img {
+    width: 25px;
+    margin-right: 5px;
 }
