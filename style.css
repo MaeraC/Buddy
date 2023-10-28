@@ -216,13 +216,15 @@ body {
 }
 .next-relation-type ,
 .next-astro,
-.next-interest {
+.next-interest,
+.next-social {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 1px;
 }
 .astro , 
-.interest {
+.interest,
+.social {
     display: none;
     overflow-y: scroll;
 }
@@ -236,4 +238,27 @@ body {
 }
 .interest-bloc .check-bloc img {
     margin-bottom: 10px;
+}
+.social {
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.social .bloc-type {
+    margin-top: 10px;
+}
+
+/* DASHBOARD ************************************************/
+
+.dashboard {
+    padding: 10px 20px;
+}
+.dashboard header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dashboard header h1 {
+    font-family: 'Yeseva One', serif;
+    font-weight: 100;
 }
