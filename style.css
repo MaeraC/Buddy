@@ -346,7 +346,7 @@ body {
     width: 25px;
     margin-right: 5px;
 }
-.no-match {
+.no-match-btn {
     position: absolute;
     bottom: 65px;
     z-index: 99;
@@ -355,4 +355,7 @@ body {
     border-radius: 50%;
     width: 50px;
     height: 50px;
+}
+.swipes2 {
+    display: none;
 }
