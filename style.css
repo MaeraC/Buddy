@@ -359,3 +359,47 @@ body {
 .swipes2 {
     display: none;
 }
+.msg-clic {
+    width: 100%;
+    height: 100%;
+    background: #000000e1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+}
+.msg-clic .msg {
+    width: 95%;
+    height: 35%;
+    background: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px;
+    font-size: 17px;
+    font-family: 'Quicksand', sans-serif;
+    outline: none;
+    position: relative;
+}
+.msg-submit {
+    width: 95%;
+    padding: 15px 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: white;
+    background: #5F00D8;
+    border: none;
+    outline: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.msg-clic img {
+    width: 30px;
+    margin-top: 20px;
+}
