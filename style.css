@@ -227,6 +227,7 @@ body {
 .social {
     display: none;
     overflow-y: scroll;
+    scrollbar-width: 0;
 }
 .interest-bloc .checkbox {
     width: 40%;
@@ -250,14 +251,16 @@ body {
 
 /* DASHBOARD ************************************************/
 
-.dashboard {
+.dashboard,
+.messages {
     height: 100vh;
     padding: 0;
     display: flex;
     flex-direction: column;
     color: white;
 }
-.dashboard header {
+.dashboard header,
+.messages header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -267,13 +270,15 @@ body {
     width: 100%;
     border-bottom: 1px solid white;
 }
-.dashboard header h1 {
+.dashboard header h1,
+.messages header h1 {
     font-family: 'Yeseva One', serif;
     font-weight: 100;
     color: white;
     font-size: 30px;
 }
-.dashboard footer {
+.dashboard footer,
+.messages footer {
     padding: 0 10px;
     padding-top: 10px;
     padding-bottom: 5px;
@@ -282,7 +287,8 @@ body {
     bottom: 0;
     width: 100%;
 }
-.dashboard .swipes {
+.dashboard .swipes,
+.messages .msg-container {
     margin: 10px;
     margin-top: 60px;
     margin-bottom: 60px;
@@ -402,4 +408,26 @@ body {
 .msg-clic img {
     width: 30px;
     margin-top: 20px;
+}
+.messages .msg-container {
+    margin: 0;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.messages .msg-container .msg {
+    width: 100%;
+    height: 80px;
+    background: white;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    font-weight: bold;
+    color: black;
+}
+.messages .msg-container img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
 }
